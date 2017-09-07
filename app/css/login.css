@@ -1,0 +1,49 @@
+.q-login-background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/ic_login.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.q-login-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-login-text {
+    color: #ACACAC;
+    font-size: 11px;
+}
+
+.q-facebook-button {
+    margin-top: 1%;
+    cursor: pointer;
+    width: 80%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #5682D9;
+}
+
+.q-google-button {
+    margin-top: 1%;
+    cursor: pointer;
+    width: 80%;
+    display: flex;
+    border-radius: 3%;
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f6575c;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>quflip</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body ng-app="quflipMobWeb">
+    <ng-view></ng-view>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controller/loginController.js"></script>
+    <script src="js/controller/homeController.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller/driverController.js"></script>
+    <script src="js/controller/driversController.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+/* app css stylesheet */
+
+@font-face {
+    font-family: monsterratBold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: monsterratRegular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: monsterratRegular
+}
